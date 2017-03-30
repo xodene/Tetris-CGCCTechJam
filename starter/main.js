@@ -100,7 +100,6 @@
         *
         *
         */
-
     }
 
 
@@ -173,22 +172,6 @@
         //to be implemented
     }
 
-    window.addEventListener("keydown", function(event) {
-        const UP_ARROW = 38;
-        const DOWN_ARROW = 36;
-        const LEFT_ARROW = 37;
-        const RIGHT_ARROW = 39;
-        console.log("KEYDOWN")
-        if(event.keyCode == RIGHT_ARROW) {
-            moveTetromino(1);
-        }
-        else if(event.keyCode === UP_ARROW) {
-            rotateTetromino();
-        }
-        else if(event.keyCode === LEFT_ARROW) {
-             moveTetromino(-1);
-        }
-    });
 
     window.addEventListener("load", start);
 
