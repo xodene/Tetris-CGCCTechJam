@@ -1,7 +1,7 @@
 # Tetris-CGCCTechJam
 Tetris clone made during CGCC Tech Slam Workshop #4 - faciliated by Maximillian Polhill
 
-#Getting Started
+# Getting Started
 Students began with the code in the folder **"starter"**. The **"solution"** folder contains the completed Tetris game. 
 
 To get started, open **starter/main.js** and implement the functions as indicated by the comments. If you get stuck, you can review the solution code and compare it to yours.
